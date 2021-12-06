@@ -1,5 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React, { useState } from 'react';
+import Image from 'next/image';
+
 import CountUp from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
 import { useTheme } from '@mui/material/styles';
@@ -9,6 +11,7 @@ import Box from '@mui/material/Box';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
+// import medicareImg from './images/medicare-card-large.jpeg';
 
 const mock = [
   {
@@ -175,12 +178,14 @@ const Features = () => {
           }}
         >
           <Box component={Card} boxShadow={4} height={1} width={1}>
+            {/* <Image src={'/images/medicare-card-large.jpeg'} layout="fill" /> */}
             <Box
               component={CardMedia}
               height={1}
               width={1}
               minHeight={300}
-              image="https://assets.maccarianagency.com/backgrounds/img4.jpg"
+              image="/images/medicare-card-large.jpeg"
+              // image={medicareImg}
             />
           </Box>
         </Grid>
