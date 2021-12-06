@@ -20,6 +20,7 @@ export default function App({ Component, pageProps }) {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
         <title>theFront | test</title>
+        <link href="/static/fp-styles.css" rel="stylesheet" />
       </Head>
       <Page>
         <Component {...pageProps} />
