@@ -99,8 +99,8 @@ const Hero = () => {
         <Container>
           <Box maxWidth={{ xs: 1, sm: '50%' }}>
             <Typography
-              variant="h1"
-              className="fp-h1"
+              variant="h3"
+              component="h1"
               color="text.primary"
               gutterBottom
               sx={{
@@ -129,7 +129,7 @@ const Hero = () => {
               </Typography> */}
             </Typography>
             <Typography
-              variant="h6"
+              variant="subtitle1"
               component="p"
               color="text.secondary"
               sx={{ fontWeight: 400 }}
@@ -140,7 +140,7 @@ const Hero = () => {
             </Typography>
             <br />
             <Typography
-              variant="h6"
+              variant="subtitle1"
               component="p"
               color="text.secondary"
               sx={{ fontWeight: 400 }}
@@ -153,7 +153,7 @@ const Hero = () => {
             <br />
 
             <Typography
-              variant="h6"
+              variant="subtitle1"
               component="p"
               color="text.secondary"
               sx={{ fontWeight: 400 }}
@@ -164,7 +164,7 @@ const Hero = () => {
             <br />
 
             <Typography
-              variant="h6"
+              variant="body2"
               component="p"
               color="text.secondary"
               sx={{ fontWeight: 400 }}

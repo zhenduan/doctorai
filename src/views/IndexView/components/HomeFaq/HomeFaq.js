@@ -111,8 +111,8 @@ const HomeFaq = () => {
   return (
     <>
       <Typography
-        variant="h2"
-        className="fp-h2"
+        variant="h4"
+        component="h2"
         color="text.primary"
         align={'center'}
         mb={3}
@@ -142,9 +142,8 @@ const HomeFaq = () => {
           id="panel1a-header"
         >
           <Typography
-            variant="h3"
-            className="fp-faq-heading"
-            component="p"
+            variant="h6"
+            component="h3"
             color="text.secondary"
             sx={{ fontWeight: 500 }}
           >
@@ -173,9 +172,8 @@ const HomeFaq = () => {
           id="panel1a-header"
         >
           <Typography
-            variant="h3"
-            className="fp-faq-heading"
-            component="p"
+            variant="h6"
+            component="h3"
             color="text.secondary"
             sx={{ fontWeight: 500 }}
           >
@@ -227,9 +225,8 @@ const HomeFaq = () => {
           id="panel1a-header"
         >
           <Typography
-            variant="h3"
-            className="fp-faq-heading"
-            component="p"
+            variant="h6"
+            component="h3"
             color="text.secondary"
             sx={{ fontWeight: 500 }}
           >
@@ -270,9 +267,8 @@ const HomeFaq = () => {
           id="panel1a-header"
         >
           <Typography
-            variant="h3"
-            className="fp-faq-heading"
-            component="p"
+            variant="h6"
+            component="h3"
             color="text.secondary"
             sx={{ fontWeight: 500 }}
           >
@@ -311,9 +307,8 @@ const HomeFaq = () => {
           id="panel1a-header"
         >
           <Typography
-            variant="h3"
-            className="fp-faq-heading"
-            component="p"
+            variant="h6"
+            component="h3"
             color="text.secondary"
             sx={{ fontWeight: 500 }}
           >
@@ -343,9 +338,8 @@ const HomeFaq = () => {
           id="panel1a-header"
         >
           <Typography
-            variant="h3"
-            className="fp-faq-heading"
-            component="p"
+            variant="h6"
+            component="h3"
             color="text.secondary"
             sx={{ fontWeight: 500 }}
           >
@@ -375,9 +369,8 @@ const HomeFaq = () => {
           id="panel1a-header"
         >
           <Typography
-            variant="h3"
-            className="fp-faq-heading"
-            component="p"
+            variant="h6"
+            component="h3"
             color="text.secondary"
             sx={{ fontWeight: 500 }}
           >

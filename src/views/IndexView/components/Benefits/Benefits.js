@@ -123,8 +123,8 @@ const Benefits = () => {
   return (
     <>
       <Typography
-        variant="h2"
-        className="fp-h2"
+        variant="h4"
+        component="h2"
         color="text.primary"
         align={'center'}
         mb={3}

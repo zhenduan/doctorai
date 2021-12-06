@@ -129,8 +129,8 @@ const Services = () => {
       <Box marginBottom={4}>
         <Box marginBottom={2}>
           <Typography
-            variant="h2"
-            className="fp-h2"
+            variant="h4"
+            component="h2"
             color="text.primary"
             align={'center'}
             gutterBottom
@@ -187,8 +187,8 @@ const Services = () => {
                   {item.icon}
                 </Box>
                 <Typography
-                  variant={'h3'}
-                  className="fp-h3"
+                  variant={'h6'}
+                  component={'h3'}
                   gutterBottom
                   sx={{ fontWeight: 500 }}
                   align={'center'}

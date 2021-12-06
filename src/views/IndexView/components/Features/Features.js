@@ -52,8 +52,8 @@ const Features = () => {
           <Box marginBottom={4}>
             <Typography
               sx={{ fontWeight: 700 }}
-              variant={'h2'}
-              className="fp-h2"
+              variant="h4"
+              component="h2"
               gutterBottom
             >
               Bulk Billing*

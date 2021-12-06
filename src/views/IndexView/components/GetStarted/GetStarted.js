@@ -14,11 +14,11 @@ const GetStarted = () => {
   return (
     <Box>
       <Typography
-        variant="h2"
+        variant="h4"
+        component="h2"
         color="text.primary"
         align={'center'}
         gutterBottom
-        className="fp-h2"
         sx={{
           fontWeight: 700,
         }}
