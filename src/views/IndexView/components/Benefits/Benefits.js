@@ -9,9 +9,8 @@ import Typography from '@mui/material/Typography';
 
 const mock = [
   {
-    title: 'Themeable',
-    subtitle:
-      'Customize any part of our components to match your design needs.',
+    title: '1. Download the DoctorAI app on Google/Apple app store',
+    subtitle: '',
     icon: (
       <svg
         height={24}
@@ -31,9 +30,8 @@ const mock = [
     ),
   },
   {
-    title: 'Light and dark UI',
-    subtitle:
-      'Optimized for multiple color modes. Use light or dark, your choice.',
+    title: '2. Fill in your personal details',
+    subtitle: '',
     icon: (
       <svg
         height={24}
@@ -53,9 +51,9 @@ const mock = [
     ),
   },
   {
-    title: 'Composable',
-    subtitle:
-      'Designed with composition in mind. Compose new components with ease.',
+    title:
+      '3. Pay with a credit card or bulk billing (free) if you’re eligible',
+    subtitle: '',
     icon: (
       <svg
         height={24}
@@ -75,9 +73,9 @@ const mock = [
     ),
   },
   {
-    title: 'Developer experience',
-    subtitle:
-      'Guaranteed to boost your productivity when building your app or website.',
+    title:
+      '4. You will receive a phone/video call from our online doctor (usually within 30 minutes)',
+    subtitle: '',
     icon: (
       <svg
         height={24}
@@ -97,8 +95,9 @@ const mock = [
     ),
   },
   {
-    title: 'Continuous updates',
-    subtitle: 'We continually deploy improvements and new updates to theFront.',
+    title:
+      '5. An electronic prescription/referral/medical certificate will be emailed to you instantly after the consult.',
+    subtitle: '',
     icon: (
       <svg
         height={24}
@@ -117,65 +116,117 @@ const mock = [
       </svg>
     ),
   },
-  {
-    title: 'Free support',
-    subtitle:
-      '6 months of free technical support to help you build your website faster.',
-    icon: (
-      <svg
-        height={24}
-        width={24}
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-      >
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth={2}
-          d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
-        />
-      </svg>
-    ),
-  },
 ];
 
 const Benefits = () => {
   const theme = useTheme();
   return (
-    <Grid container spacing={4}>
-      {mock.map((item, i) => (
-        <Grid item xs={12} sm={6} md={4} key={i}>
-          <Box
-            component={Card}
-            padding={4}
-            borderRadius={2}
-            width={1}
-            height={1}
-            data-aos={'fade-up'}
-            data-aos-delay={i * 100}
-          >
-            <Box display={'flex'} flexDirection={'column'}>
-              <Box
-                component={Avatar}
-                width={50}
-                height={50}
-                marginBottom={2}
-                bgcolor={theme.palette.primary.main}
-                color={theme.palette.background.paper}
-              >
-                {item.icon}
+    <>
+      <Typography
+        variant="h2"
+        className="fp-h2"
+        color="text.primary"
+        align={'center'}
+        mb={3}
+        gutterBottom
+        sx={{
+          fontWeight: 700,
+        }}
+      >
+        How it works
+      </Typography>
+      <Typography
+        variant="h6"
+        component="p"
+        color="text.secondary"
+        sx={{ fontWeight: 400 }}
+        align={'center'}
+        mb={3}
+      >
+        There’s no need for extended wait periods or delaying your medical
+        appointments.
+      </Typography>
+      <Typography
+        variant="h6"
+        component="p"
+        color="text.secondary"
+        sx={{ fontWeight: 400 }}
+        align={'center'}
+        mb={3}
+      >
+        To talk with an online doctor in Australia, simply download the DoctorAI
+        app, jump online, and receive prompt, professional and reliable medical
+        treatment today. Just follow this simple process.
+      </Typography>
+      <Grid container spacing={4}>
+        {mock.map((item, i) => (
+          <Grid item xs={12} sm={6} md={4} key={i}>
+            <Box
+              component={Card}
+              padding={4}
+              borderRadius={2}
+              width={1}
+              height={1}
+              data-aos={'fade-up'}
+              data-aos-delay={i * 100}
+            >
+              <Box display={'flex'} flexDirection={'column'}>
+                <Box
+                  component={Avatar}
+                  width={50}
+                  height={50}
+                  marginBottom={2}
+                  bgcolor={theme.palette.primary.main}
+                  color={theme.palette.background.paper}
+                >
+                  {item.icon}
+                </Box>
+                <Typography
+                  variant={'body1'}
+                  gutterBottom
+                  sx={{ fontWeight: 500 }}
+                >
+                  {item.title}
+                </Typography>
+                <Typography color="text.secondary">{item.subtitle}</Typography>
               </Box>
-              <Typography variant={'h6'} gutterBottom sx={{ fontWeight: 500 }}>
-                {item.title}
-              </Typography>
-              <Typography color="text.secondary">{item.subtitle}</Typography>
             </Box>
-          </Box>
-        </Grid>
-      ))}
-    </Grid>
+          </Grid>
+        ))}
+      </Grid>
+      <Typography
+        variant="h6"
+        component="p"
+        color="text.secondary"
+        sx={{ fontWeight: 400 }}
+        align={'center'}
+        mb={3}
+        mt={5}
+      >
+        We know you’ll be satisfied with our online doctor services. In fact, if
+        for any reason you’re not completely satisfied, or if your request can’t
+        be completed online, we’ll issue a full refund*.
+      </Typography>
+      <Typography
+        variant="h6"
+        component="p"
+        color="text.secondary"
+        sx={{ fontWeight: 400 }}
+        align={'center'}
+        mb={2}
+      >
+        That’s our promise.
+      </Typography>
+      <Typography
+        variant="body2"
+        component="p"
+        color="text.secondary"
+        sx={{ fontWeight: 400 }}
+        align={'center'}
+      >
+        *if private consultation fees have been paid
+      </Typography>
+    </>
   );
 };
 

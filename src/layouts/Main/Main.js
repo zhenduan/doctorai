@@ -4,6 +4,7 @@ import { useTheme } from '@mui/material/styles';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
+import Head from 'next/head';
 import Typography from '@mui/material/Typography';
 import Divider from '@mui/material/Divider';
 import AppBar from '@mui/material/AppBar';
@@ -14,7 +15,13 @@ import { Topbar, Sidebar, Footer, ThemeModeToggler } from './components';
 
 import pages from '../navigation';
 
-const Main = ({ children, colorInvert = false, bgcolor = 'transparent' }) => {
+const Main = ({
+  title,
+  description,
+  children,
+  colorInvert = false,
+  bgcolor = 'transparent',
+}) => {
   const theme = useTheme();
   const isMd = useMediaQuery(theme.breakpoints.up('md'), {
     defaultMatches: true,
@@ -39,6 +46,11 @@ const Main = ({ children, colorInvert = false, bgcolor = 'transparent' }) => {
 
   return (
     <Box>
+      <Head>
+        <title>{title ? `${title}` : 'DoctorAI'}</title>
+        {description && <meta name="description" content={description}></meta>}
+      </Head>
+
       <Box bgcolor={bgcolor} position={'relative'} zIndex={theme.zIndex.appBar}>
         <Container paddingTop={'8px !important'} paddingBottom={'0 !important'}>
           <Box

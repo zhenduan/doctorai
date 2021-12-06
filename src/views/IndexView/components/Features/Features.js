@@ -50,17 +50,97 @@ const Features = () => {
       <Grid container spacing={4} direction={isMd ? 'row' : 'column-reverse'}>
         <Grid item xs={12} md={6}>
           <Box marginBottom={4}>
-            <Typography sx={{ fontWeight: 700 }} variant={'h4'} gutterBottom>
-              The powerful and flexible theme for all kinds of businesses
+            <Typography
+              sx={{ fontWeight: 700 }}
+              variant={'h2'}
+              className="fp-h2"
+              gutterBottom
+            >
+              Bulk Billing*
             </Typography>
             <Typography variant={'h6'} component={'p'} color={'text.secondary'}>
-              Whether you're creating a subscription service, an on-demand
-              marketplace, an e-commerce store, or a portfolio showcase,
-              theFront helps you create the best possible product for your
-              users.
+              Our online GPs offer bulk billing if you fit in one of the
+              following categories:
+            </Typography>
+            <ul>
+              <li>
+                <Typography
+                  variant={'h6'}
+                  component={'p'}
+                  color={'text.secondary'}
+                >
+                  Are living in a COVID-19 impacted area (including
+                  self-quarantine), or
+                </Typography>
+              </li>
+              <li>
+                <Typography
+                  variant={'h6'}
+                  component={'p'}
+                  color={'text.secondary'}
+                >
+                  Are under the age of 12 months, or
+                </Typography>
+              </li>
+              <li>
+                <Typography
+                  variant={'h6'}
+                  component={'p'}
+                  color={'text.secondary'}
+                >
+                  Are experiencing homelessness, or
+                </Typography>
+              </li>
+              <li>
+                <Typography
+                  variant={'h6'}
+                  component={'p'}
+                  color={'text.secondary'}
+                >
+                  Have Mental, Sexual or Reproductive health issues, or
+                </Typography>
+              </li>
+              <li>
+                <Typography
+                  variant={'h6'}
+                  component={'p'}
+                  color={'text.secondary'}
+                >
+                  Need urgent after-hours service (after 11 pm WA time)
+                </Typography>
+              </li>
+            </ul>
+          </Box>
+          <Box>
+            <Typography variant={'h6'} component={'p'} color={'text.secondary'}>
+              If you don’t belong to any of the above groups, we charge $35 per
+              consultation, with no Medicare rebate.
+            </Typography>
+            <br />
+            <Typography
+              variant={'body2'}
+              component={'p'}
+              color={'text.secondary'}
+            >
+              *In accordance with *Stage 7 Telehealth Reform by the Australian
+              Government
+            </Typography>
+            <Typography
+              variant={'body2'}
+              component={'p'}
+              color={'text.secondary'}
+            >
+              *You must be in Australia to use DoctorAI video consultation
+            </Typography>
+            <Typography
+              variant={'body2'}
+              component={'p'}
+              color={'text.secondary'}
+            >
+              *Terms and conditions apply
             </Typography>
           </Box>
-          <Grid container spacing={2}>
+          {/* <Grid container spacing={2}>
             {mock.map((item, i) => (
               <Grid key={i} item xs={12} md={4}>
                 <Typography variant="h4" color={'primary'} gutterBottom>
@@ -81,7 +161,7 @@ const Features = () => {
                 </Typography>
               </Grid>
             ))}
-          </Grid>
+          </Grid> */}
         </Grid>
         <Grid
           item

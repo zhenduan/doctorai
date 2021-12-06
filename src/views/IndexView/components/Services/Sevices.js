@@ -1,16 +1,23 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
+import { grey } from '@mui/material/colors';
 import { alpha, useTheme } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Avatar from '@mui/material/Avatar';
+import Button from '@mui/material/Button';
+import Tooltip, { tooltipClasses } from '@mui/material/Tooltip';
 import Grid from '@mui/material/Grid';
+import { styled } from '@mui/material/styles';
+
+const lightGrey = grey[50]; // #f44336
 
 const mock = [
   {
-    title: 'Built for developers',
+    title: 'Simple Consultation',
     subtitle:
-      'theFront is built to make your life easier. Variables, build tooling, documentation, and reusable components.',
+      'If you have simple health concerns, get them answered quickly and easily today. We can help with:',
+    hasList: true,
     icon: (
       <svg
         height={24}
@@ -30,9 +37,11 @@ const mock = [
     ),
   },
   {
-    title: 'Designed to be modern',
+    title: 'Repeat Prescription',
     subtitle:
-      'Designed with the latest design trends in mind. theFront feels modern, minimal, and beautiful.',
+      'Just show us your current medication label with your name and the prescribed doctor’s name on it, and our GPs online will get your repeat prescription for you. ',
+    subtitle2:
+      'Strictly NO medications of addiction, painkiller, narcotics, sleeping tablets or medicinal cannabis (Schedule 4 and 8 medications).',
     icon: (
       <svg
         height={24}
@@ -52,9 +61,35 @@ const mock = [
     ),
   },
   {
-    title: 'Documentation for everything',
+    title: 'Referral to Specialists',
     subtitle:
-      'We\'ve written extensive documentation for components and tools, so you never have to reverse engineer anything.',
+      'Our GPs online can provide a referral to any private specialist in Australia, except a referral to a public hospital or a referral for termination of pregnancy.',
+
+    icon: (
+      <svg
+        height={24}
+        width={24}
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
+        />
+      </svg>
+    ),
+  },
+  {
+    title: 'Medical Certificate',
+    subtitle:
+      'An online doctor consultation can provide you with a medical certificate if you are unfit for study or work. However, please note we are unable to back-date any medical certificates.',
+    subtitle2: 'For further information, please see',
+    linkUrl: '#',
+    linkText: 'Terms and Conditions',
     icon: (
       <svg
         height={24}
@@ -75,6 +110,18 @@ const mock = [
   },
 ];
 
+const HtmlTooltip = styled(({ className, ...props }) => (
+  <Tooltip {...props} classes={{ popper: className }} />
+))(({ theme }) => ({
+  [`& .${tooltipClasses.tooltip}`]: {
+    backgroundColor: '#f5f5f9',
+    color: 'rgba(0, 0, 0, 0.87)',
+    maxWidth: 220,
+    fontSize: theme.typography.pxToRem(12),
+    border: '1px solid #dadde9',
+  },
+}));
+
 const Services = () => {
   const theme = useTheme();
   return (
@@ -82,7 +129,8 @@ const Services = () => {
       <Box marginBottom={4}>
         <Box marginBottom={2}>
           <Typography
-            variant="h4"
+            variant="h2"
+            className="fp-h2"
             color="text.primary"
             align={'center'}
             gutterBottom
@@ -90,7 +138,7 @@ const Services = () => {
               fontWeight: 700,
             }}
           >
-            Build accessible React apps with speed
+            Popular services
           </Typography>
           <Typography
             variant="h6"
@@ -99,14 +147,29 @@ const Services = () => {
             sx={{ fontWeight: 400 }}
             align={'center'}
           >
-            Build a beautiful, modern website with flexible, fully customizable,
-            atomic MUI components.
+            The most popular services include access to online prescriptions,
+            referrals to specialists, medical certificates, telehealth doctors
+            and much more. Our GPs online offer bulk billing wherever
+            applicable.(need internal links)
+          </Typography>
+          <br />
+          <Typography
+            variant="h6"
+            component="p"
+            color="text.secondary"
+            sx={{ fontWeight: 400 }}
+            align={'center'}
+          >
+            With an online doctor consultation, fast, convenient and safe
+            medical attention is never far away. Download the DoctorAI app for
+            your online GP consultation today.
           </Typography>
         </Box>
       </Box>
-      <Grid container spacing={2}>
+
+      <Grid container spacing={3}>
         {mock.map((item, i) => (
-          <Grid item xs={12} md={4} key={i}>
+          <Grid item xs={12} md={3} key={i}>
             <Box width={1} height={1}>
               <Box
                 display={'flex'}
@@ -124,7 +187,8 @@ const Services = () => {
                   {item.icon}
                 </Box>
                 <Typography
-                  variant={'h6'}
+                  variant={'h3'}
+                  className="fp-h3"
                   gutterBottom
                   sx={{ fontWeight: 500 }}
                   align={'center'}
@@ -134,6 +198,90 @@ const Services = () => {
                 <Typography align={'center'} color="text.secondary">
                   {item.subtitle}
                 </Typography>
+                {item.hasList && (
+                  <>
+                    <Tooltip
+                      title={
+                        <React.Fragment>
+                          <Typography color={lightGrey}>
+                            &#x2022; cold and flu
+                          </Typography>
+                          <Typography color={lightGrey}>
+                            &#x2022; skin infection
+                          </Typography>
+                          <Typography color={lightGrey}>
+                            &#x2022; simple rashes
+                          </Typography>
+                          <Typography color={lightGrey}>
+                            &#x2022; dental infection
+                          </Typography>
+                          <Typography color={lightGrey}>
+                            &#x2022; eye and ear infection
+                          </Typography>
+                          <Typography color={lightGrey}>
+                            &#x2022; upper respiratory infection
+                          </Typography>
+                          <Typography color={lightGrey}>
+                            &#x2022; gastro-oesophageal reflux
+                          </Typography>
+                          <Typography color={lightGrey}>
+                            &#x2022; gastroenteritis
+                          </Typography>
+                          <Typography color={lightGrey}>
+                            &#x2022; urinary tract infection
+                          </Typography>
+                          <Typography color={lightGrey}>
+                            &#x2022; travel medicine
+                          </Typography>
+                        </React.Fragment>
+                      }
+                      placement="bottom"
+                    >
+                      <Button>Show Details</Button>
+                    </Tooltip>
+                    {/* <Typography color="text.secondary">
+                      &#x2022; cold and flu
+                    </Typography>
+                    <Typography color="text.secondary">
+                      &#x2022; skin infection
+                    </Typography>
+                    <Typography color="text.secondary">
+                      &#x2022; simple rashes
+                    </Typography>
+                    <Typography color="text.secondary">
+                      &#x2022; dental infection
+                    </Typography>
+                    <Typography color="text.secondary">
+                      &#x2022; eye and ear infection
+                    </Typography>
+                    <Typography color="text.secondary">
+                      &#x2022; upper respiratory infection
+                    </Typography>
+                    <Typography color="text.secondary">
+                      &#x2022; gastro-oesophageal reflux
+                    </Typography>
+                    <Typography color="text.secondary">
+                      &#x2022; gastroenteritis
+                    </Typography>
+                    <Typography color="text.secondary">
+                      &#x2022; urinary tract infection
+                    </Typography>
+                    <Typography color="text.secondary">
+                      &#x2022; travel medicine
+                    </Typography> */}
+                  </>
+                )}
+                {item.subtitle2 && (
+                  <>
+                    <br />
+                    <Typography align={'center'} color="text.secondary">
+                      {item.subtitle2}{' '}
+                      {item.linkUrl && (
+                        <a href={item.linkUrl}>{item.linkText}</a>
+                      )}
+                    </Typography>
+                  </>
+                )}
               </Box>
             </Box>
           </Grid>

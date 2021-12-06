@@ -99,15 +99,16 @@ const Hero = () => {
         <Container>
           <Box maxWidth={{ xs: 1, sm: '50%' }}>
             <Typography
-              variant="h2"
+              variant="h1"
+              className="fp-h1"
               color="text.primary"
               gutterBottom
               sx={{
                 fontWeight: 700,
               }}
             >
-              Turn your ideas
-              <br />
+              Connect to an Online Doctor Today
+              {/* <br />
               into{' '}
               <Typography
                 color={'primary'}
@@ -125,7 +126,7 @@ const Hero = () => {
                   typeSpeed={80}
                   loop={true}
                 />
-              </Typography>
+              </Typography> */}
             </Typography>
             <Typography
               variant="h6"
@@ -133,9 +134,44 @@ const Hero = () => {
               color="text.secondary"
               sx={{ fontWeight: 400 }}
             >
-              theFront will make your product look modern and professional while
-              saving you precious time.
+              Running out of medications? Need a medical certificate for work or
+              school? Are you just after a quick consultation, and don’t feel
+              like waiting in the waiting room of your local GP clinic?
             </Typography>
+            <br />
+            <Typography
+              variant="h6"
+              component="p"
+              color="text.secondary"
+              sx={{ fontWeight: 400 }}
+            >
+              No worries, now you can do all these anywhere in Australia*, even
+              while sitting on the beach! Connect with our AHPRA-registered
+              online doctors for medical consultations, all from our DoctorAI
+              app. We are open now
+            </Typography>
+            <br />
+
+            <Typography
+              variant="h6"
+              component="p"
+              color="text.secondary"
+              sx={{ fontWeight: 400 }}
+            >
+              Download the DoctorAI app and request a consultation with a fully
+              qualified online doctor today.{' '}
+            </Typography>
+            <br />
+
+            <Typography
+              variant="h6"
+              component="p"
+              color="text.secondary"
+              sx={{ fontWeight: 400 }}
+            >
+              *you must be in Australia to use this video consultation
+            </Typography>
+
             <Box
               display="flex"
               flexDirection={{ xs: 'column', sm: 'row' }}
@@ -150,14 +186,14 @@ const Hero = () => {
                 fullWidth={isMd ? false : true}
                 href={'/home'}
               >
-                View pages
+                Download APP
               </Button>
               <Box
                 marginTop={{ xs: 2, sm: 0 }}
                 marginLeft={{ sm: 2 }}
                 width={{ xs: '100%', md: 'auto' }}
               >
-                <Button
+                {/* <Button
                   component={'a'}
                   href={'/docs/introduction'}
                   variant="outlined"
@@ -166,7 +202,7 @@ const Hero = () => {
                   fullWidth={isMd ? false : true}
                 >
                   Documentation
-                </Button>
+                </Button> */}
               </Box>
             </Box>
           </Box>

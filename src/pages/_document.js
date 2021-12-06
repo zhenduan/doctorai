@@ -39,11 +39,11 @@ export default class MyDocument extends Document {
           />
           <meta
             property="og:title"
-            content="theFront | UI Kit by Maccarian Agency."
+            content="Online Doctor | Book a GP Appointment Online with DoctorAI "
           />
           <meta
             property="og:description"
-            content="A modern design system for your new landing and web pages."
+            content="Book your next GP appointment online with DoctorAI. When time is of the essence and you need prompt medical care, consult our online doctor today.   "
           />
           <meta
             property="og:url"

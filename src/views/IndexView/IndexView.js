@@ -10,13 +10,18 @@ import {
   Services,
   Benefits,
   Hero,
+  HomeFaq,
 } from './components';
 
 const IndexView = () => {
   const theme = useTheme();
   return (
     <Box sx={{ overflowX: 'hidden' }}>
-      <Main bgcolor={'background.paper'}>
+      <Main
+        bgcolor={'background.paper'}
+        title="Online Doctor | Book a GP Appointment Online with DoctorAI "
+        description="Book your next GP appointment online with DoctorAI. When time is of the essence and you need prompt medical care, consult our online doctor today.   "
+      >
         <Hero />
         <Container>
           <Services />
@@ -31,9 +36,9 @@ const IndexView = () => {
             position: 'relative',
           }}
         >
-          <Container maxWidth={600}>
+          {/* <Container maxWidth={600}>
             <QuickStart />
-          </Container>
+          </Container> */}
           <Container>
             <Features />
           </Container>
@@ -60,6 +65,9 @@ const IndexView = () => {
         </Box>
         <Container>
           <GetStarted />
+        </Container>
+        <Container>
+          <HomeFaq />
         </Container>
       </Main>
     </Box>

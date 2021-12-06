@@ -9,6 +9,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import 'react-image-lightbox/style.css';
 import 'aos/dist/aos.css';
+import '../assets/main-style.css';
 
 export default function App({ Component, pageProps }) {
   return (
@@ -18,7 +19,7 @@ export default function App({ Component, pageProps }) {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-        <title>theFront | UI Kit by Maccarian Agency.</title>
+        <title>theFront | test</title>
       </Head>
       <Page>
         <Component {...pageProps} />

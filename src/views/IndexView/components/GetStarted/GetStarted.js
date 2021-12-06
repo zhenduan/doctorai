@@ -14,15 +14,16 @@ const GetStarted = () => {
   return (
     <Box>
       <Typography
-        variant="h4"
+        variant="h2"
         color="text.primary"
         align={'center'}
         gutterBottom
+        className="fp-h2"
         sx={{
           fontWeight: 700,
         }}
       >
-        Get started with theFront today
+        Let's get started
       </Typography>
       <Typography
         variant="h6"
@@ -31,8 +32,8 @@ const GetStarted = () => {
         sx={{ fontWeight: 400 }}
         align={'center'}
       >
-        Build a beautiful, modern website with flexible, fully customizable,
-        atomic MUI components.
+        Download the DoctorAI app now and we will get you connected with your
+        online doctor in just a few minutes.
       </Typography>
       <Box
         display="flex"
@@ -49,14 +50,14 @@ const GetStarted = () => {
           fullWidth={isMd ? false : true}
           href={'/home'}
         >
-          View pages
+          Download APP
         </Button>
         <Box
           marginTop={{ xs: 2, sm: 0 }}
           marginLeft={{ sm: 2 }}
           width={{ xs: '100%', md: 'auto' }}
         >
-          <Button
+          {/* <Button
             component={'a'}
             href={'/docs/introduction'}
             variant="outlined"
@@ -65,7 +66,7 @@ const GetStarted = () => {
             fullWidth={isMd ? false : true}
           >
             Documentation
-          </Button>
+          </Button> */}
         </Box>
       </Box>
     </Box>
