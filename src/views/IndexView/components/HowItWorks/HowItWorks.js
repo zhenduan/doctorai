@@ -118,7 +118,7 @@ const mock = [
   },
 ];
 
-const Benefits = () => {
+const HowItWorks = () => {
   const theme = useTheme();
   return (
     <>
@@ -230,4 +230,4 @@ const Benefits = () => {
   );
 };
 
-export default Benefits;
+export default HowItWorks;

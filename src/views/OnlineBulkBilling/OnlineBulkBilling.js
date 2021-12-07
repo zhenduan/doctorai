@@ -13,19 +13,19 @@ import {
   FaqSection,
 } from './components';
 
-const IndexView = () => {
+const OnlineBulkBilling = () => {
   const theme = useTheme();
   return (
     <Box sx={{ overflowX: 'hidden' }}>
       <Main
         bgcolor={'background.paper'}
-        title="Online Doctor | Book a GP Appointment Online with DoctorAI "
-        description="Book your next GP appointment online with DoctorAI. When time is of the essence and you need prompt medical care, consult our online doctor today.   "
+        title="Bulk Billing Doctors Online | Free Online Doctors in Australia."
+        description="Book bulk-billing doctors online any time with DoctorAI. Download the app in minutes and access free online doctors in Australia + bulk bill today. "
       >
         <Hero />
-        <Container>
+        {/* <Container>
           <Services />
-        </Container>
+        </Container> */}
         <Box
           sx={{
             backgroundImage: `linear-gradient(to bottom, ${alpha(
@@ -39,9 +39,9 @@ const IndexView = () => {
           {/* <Container maxWidth={600}>
             <QuickStart />
           </Container> */}
-          <Container>
+          {/* <Container>
             <Features />
-          </Container>
+          </Container> */}
           <Container>
             <HowItWorks />
           </Container>
@@ -74,4 +74,4 @@ const IndexView = () => {
   );
 };
 
-export default IndexView;
+export default OnlineBulkBilling;

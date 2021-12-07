@@ -121,19 +121,9 @@ const HomeFaq = () => {
           fontWeight: 700,
         }}
       >
-        Dr Online - Frequently Asked Questions
+        Frequently Asked Questions
       </Typography>
-      <Typography
-        variant="h6"
-        component="p"
-        color="text.secondary"
-        sx={{ fontWeight: 400 }}
-        mb={3}
-        align={'center'}
-      >
-        Need a doctor online? Wherever you are, our online doctor services offer
-        prompt, fully registered medical consultations and certificates.
-      </Typography>
+
       {/* faq 1 */}
       <Accordion>
         <AccordionSummary
@@ -147,20 +137,18 @@ const HomeFaq = () => {
             color="text.secondary"
             sx={{ fontWeight: 500 }}
           >
-            Can online doctors prescribe antibiotics?
+            Can I renew a prescription online?
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography
-            variant="h6"
+            variant="subtitle1"
             component="p"
             color="text.secondary"
             sx={{ fontWeight: 400 }}
           >
-            Your online doctor at DoctorAI can prescribe antibiotics. Simply
-            book an online doctor consultation with DoctorAI, and we can
-            prescribe the required medication according to your medical needs —
-            promptly and efficiently.
+            You can renew a prescription online with an online prescription
+            consultation at DoctorAI.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -177,42 +165,31 @@ const HomeFaq = () => {
             color="text.secondary"
             sx={{ fontWeight: 500 }}
           >
-            Can online doctors prescribe antidepressants?
+            How will I receive my prescription?
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography
-            variant="h6"
+            variant="subtitle1"
             component="p"
             color="text.secondary"
             mb={3}
             sx={{ fontWeight: 400 }}
           >
-            Online doctors can prescribe antidepressants according to your
-            medical needs. If you need to renew your prescription for
-            antidepressant medication, consult your doctor online at DoctorAI.{' '}
+            You will receive your prescription online (eScript) from DoctorAI
+            via your registered email at the conclusion of the consultation
+            instantly. For instant scripts in Australia, book your online
+            prescription consultation today with DoctorAI.
           </Typography>
           <Typography
-            variant="h6"
+            variant="subtitle1"
             component="p"
             color="text.secondary"
             mb={3}
             sx={{ fontWeight: 400 }}
           >
-            If you need to renew your medications, all you need to do is show us
-            the label on your current medication, with your name and the name of
-            your prescription doctor on it.
-          </Typography>
-          <Typography
-            variant="h6"
-            component="p"
-            color="text.secondary"
-            mb={3}
-            sx={{ fontWeight: 400 }}
-          >
-            Please note that our GPs online cannot renew prescriptions for
-            medications related to addiction, painkillers, narcotics, sleeping
-            tablets or medicinal cannabis (Schedule 4 and 8 medications).
+            For scripts online at any time, download the DoctorAI app to book
+            your online doctor prescription in Australia.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -230,32 +207,32 @@ const HomeFaq = () => {
             color="text.secondary"
             sx={{ fontWeight: 500 }}
           >
-            Can you get a medical certificate from an online doctor?
+            Is it safe to get an online prescription?
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography
-            variant="h6"
+            variant="subtitle1"
             component="p"
             color="text.secondary"
             mb={3}
             sx={{ fontWeight: 400 }}
           >
-            You can get a doctor’s medical certificate online at DoctorAI. All
-            you need to do is download the app and have an online doctor
-            consultation, for your doctor’s medical certificate for school or
-            work.
+            It is perfectly safe, effortless and convenient to get an online
+            prescription at DoctorAI. The medical team is fully registered and
+            equipped to meet your every online doctor and online prescription
+            need.
           </Typography>
           <Typography
-            variant="h6"
+            variant="subtitle1"
             component="p"
             color="text.secondary"
             mb={3}
             sx={{ fontWeight: 400 }}
           >
-            The medical certificate will be emailed to you instantly after the
-            consultation. Please be advised that the doctor is not able to
-            back-date a certificate.
+            Please remember that there are strictly NO medications of addiction,
+            painkillers, narcotics, sleeping tablets or medicinal cannabis
+            (Schedule 4 and 8 medications).{' '}
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -272,144 +249,63 @@ const HomeFaq = () => {
             color="text.secondary"
             sx={{ fontWeight: 500 }}
           >
-            Can I get an online doctor’s referral?{' '}
+            Do I need to speak with a doctor for an online prescription?
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography
-            variant="h6"
+            variant="subtitle1"
             component="p"
             color="text.secondary"
             mb={3}
             sx={{ fontWeight: 400 }}
           >
-            Online doctors can provide a referral to a private specialist, to
-            suit your medical needs. Exemptions apply to public hospital
-            referrals.{' '}
+            You do need to consult your doctor for an online prescription. You
+            can do this by booking an online prescription consultation at
+            DoctorAI. Australia’s online prescription needs are taken care of,
+            wherever possible, at DoctorAI.{' '}
           </Typography>
           <Typography
-            variant="h6"
+            variant="subtitle1"
             component="p"
             color="text.secondary"
             mb={3}
             sx={{ fontWeight: 400 }}
           >
-            Please note we cannot refer you to a public hospital or for a
-            termination of pregnancy.
+            So, fear not if you are running out of medications. In addition,
+            there’s no need to worry if you require a medical certificate for
+            work or school. Or even if you are after a quick consultation — and
+            don’t feel like waiting in the waiting room of your local GP clinic.
           </Typography>
-        </AccordionDetails>
-      </Accordion>
-      {/* faq 5 */}
-      <Accordion>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel1a-content"
-          id="panel1a-header"
-        >
           <Typography
-            variant="h6"
-            component="h3"
-            color="text.secondary"
-            sx={{ fontWeight: 500 }}
-          >
-            How do I find a doctor online?
-          </Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography
-            variant="h6"
+            variant="subtitle1"
             component="p"
             color="text.secondary"
             mb={3}
             sx={{ fontWeight: 400 }}
           >
-            You can find a doctor online quickly and effortlessly at DoctorAI.
-            Simply download the DoctorAI app and you can be booking your
-            consultation within minutes. Your online doctor at any time is
-            DoctorAI.{' '}
+            For online prescriptions, medical certificates and online
+            consultations, there are absolutely no worries. Now you can do all
+            these anywhere in Australia*, even while sitting on the beach.
           </Typography>
-        </AccordionDetails>
-      </Accordion>
-      {/* faq 6 */}
-      <Accordion>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel1a-content"
-          id="panel1a-header"
-        >
           <Typography
-            variant="h6"
-            component="h3"
-            color="text.secondary"
-            sx={{ fontWeight: 500 }}
-          >
-            How to book your online doctor appointment{' '}
-          </Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography
-            variant="h6"
+            variant="subtitle1"
             component="p"
             color="text.secondary"
             mb={3}
             sx={{ fontWeight: 400 }}
           >
-            An online doctor appointment is just a click away at DoctorAI.
-            Prompt and efficient, consulting a doctor online puts your health
-            and safety needs first. Simply download the DoctorAI app to get
-            started.
+            Connect with our AHPRA-registered online doctors for online
+            prescriptions and medical consultations, all from our DoctorAI app.
           </Typography>
-        </AccordionDetails>
-      </Accordion>
-      {/* faq 7 */}
-      <Accordion>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel1a-content"
-          id="panel1a-header"
-        >
           <Typography
-            variant="h6"
-            component="h3"
-            color="text.secondary"
-            sx={{ fontWeight: 500 }}
-          >
-            How do online doctors work?
-          </Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography
-            variant="h6"
+            variant="body2"
             component="p"
             color="text.secondary"
             mb={3}
             sx={{ fontWeight: 400 }}
           >
-            Doctors online work in the same way that an in-person GP
-            consultation works. The major benefit is that you can attend your
-            medical appointments at your own convenience, without the need for a
-            trip to the clinic.
-          </Typography>
-          <Typography
-            variant="h6"
-            component="p"
-            color="text.secondary"
-            mb={3}
-            sx={{ fontWeight: 400 }}
-          >
-            Taking your medical needs online does away with the need for long
-            commute times or waiting periods. Your online GP at DoctorAI will
-            take care of your medical needs without the inconvenience of an
-            in-person visit.{' '}
-          </Typography>
-          <Typography
-            variant="h6"
-            component="p"
-            color="text.secondary"
-            mb={3}
-            sx={{ fontWeight: 400 }}
-          >
-            For an online doctor chat, download our app today.{' '}
+            *you must be in Australia to use this video consultation
           </Typography>
         </AccordionDetails>
       </Accordion>

@@ -13,19 +13,19 @@ import {
   FaqSection,
 } from './components';
 
-const IndexView = () => {
+const OnlinePsychologist = () => {
   const theme = useTheme();
   return (
     <Box sx={{ overflowX: 'hidden' }}>
       <Main
         bgcolor={'background.paper'}
-        title="Online Doctor | Book a GP Appointment Online with DoctorAI "
-        description="Book your next GP appointment online with DoctorAI. When time is of the essence and you need prompt medical care, consult our online doctor today.   "
+        title="Online Prescription Australia | Save Time, Get Your Scripts Online"
+        description="Your online doctor prescription Australia is DoctorAI. For instant scripts Australia, book your online prescription consultation — quickly and easily."
       >
         <Hero />
-        <Container>
+        {/* <Container>
           <Services />
-        </Container>
+        </Container> */}
         <Box
           sx={{
             backgroundImage: `linear-gradient(to bottom, ${alpha(
@@ -39,9 +39,9 @@ const IndexView = () => {
           {/* <Container maxWidth={600}>
             <QuickStart />
           </Container> */}
-          <Container>
+          {/* <Container>
             <Features />
-          </Container>
+          </Container> */}
           <Container>
             <HowItWorks />
           </Container>
@@ -74,4 +74,4 @@ const IndexView = () => {
   );
 };
 
-export default IndexView;
+export default OnlinePsychologist;
