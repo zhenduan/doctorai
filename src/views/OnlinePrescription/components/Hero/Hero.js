@@ -107,7 +107,7 @@ const Hero = () => {
                 fontWeight: 700,
               }}
             >
-              Schedule a referral appointment with an online psychologist today
+              Online Prescription Service
               {/* <br />
               into{' '}
               <Typography
@@ -135,7 +135,8 @@ const Hero = () => {
               mb={2}
               sx={{ fontWeight: 400 }}
             >
-              Schedule a referral appointment with an online psychologist today
+              For instant scripts in Australia and all your online prescription
+              needs, book an online prescription consultation with DoctorAI.
             </Typography>
 
             <Typography
@@ -145,10 +146,10 @@ const Hero = () => {
               mb={2}
               sx={{ fontWeight: 400 }}
             >
-              With DoctorAI 's telehealth app, it's convenient and fast to get
-              in touch with an online psychologist. Download our app to get a
-              referral to an online psychologist and start focussing on your
-              mental health.
+              Your online doctor at DoctorAI can prescribe any medication
+              according to your medical conditions. Simply book an online doctor
+              consultation with DoctorAI, and we can prescribe the required
+              medication according to your medical needs.
             </Typography>
 
             <Typography
@@ -158,8 +159,46 @@ const Hero = () => {
               mb={2}
               sx={{ fontWeight: 400 }}
             >
-              DoctorAI can provide you with a Mental Health Care Plan to see a
-              psychologist through Medicare if you are eligible.
+              Best of all, we will do so promptly and efficiently. You will
+              receive an eScript to your email at the conclusion of the
+              consultation instantly.
+            </Typography>
+
+            <Typography
+              variant="subtitle1"
+              component="p"
+              color="text.secondary"
+              mb={2}
+              sx={{ fontWeight: 400 }}
+            >
+              It’s also a comfort to know that online doctors can renew your
+              medications. If you need to renew your prescription, simply
+              consult your doctor online at DoctorAI. All prescriptions will be
+              emailed to you at the end of the consultation.
+            </Typography>
+
+            <Typography
+              variant="subtitle1"
+              component="p"
+              color="text.secondary"
+              mb={2}
+              sx={{ fontWeight: 400 }}
+            >
+              All you need to do is show us the label on your current
+              medication, with your name and the name of your prescription
+              doctor on it.
+            </Typography>
+
+            <Typography
+              variant="subtitle1"
+              component="p"
+              color="text.secondary"
+              mb={2}
+              sx={{ fontWeight: 400 }}
+            >
+              Please note that our online GPs cannot renew or prescribe
+              medications related to addiction, painkillers, narcotics, sleeping
+              tablets or medicinal cannabis (Schedule 4 and 8 medications).
             </Typography>
 
             <Box

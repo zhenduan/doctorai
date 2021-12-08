@@ -13,14 +13,14 @@ import {
   FaqSection,
 } from './components';
 
-const OnlinePsychologist = () => {
+const DoctorCertificateOnline = () => {
   const theme = useTheme();
   return (
     <Box sx={{ overflowX: 'hidden' }}>
       <Main
         bgcolor={'background.paper'}
-        title="Online Psychologist Australia | Book an Appointment Today"
-        description="Download the DoctorAI app to receive a referral to a psychologist from our online doctors. Fast & efficient way to get a psychologist referral. "
+        title="Doctors Certificate Online | Quick Medical Certificates Now "
+        description="If you need a doctor's certificate online in a hurry, consult DoctorAI. Quick medical certificates are available online for patients in need at DoctorAI. "
       >
         <Hero />
         {/* <Container>
@@ -74,4 +74,4 @@ const OnlinePsychologist = () => {
   );
 };
 
-export default OnlinePsychologist;
+export default DoctorCertificateOnline;

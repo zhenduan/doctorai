@@ -131,6 +131,7 @@ const Hero = () => {
             <Typography
               variant="subtitle1"
               component="p"
+              mb={2}
               color="text.secondary"
               sx={{ fontWeight: 400 }}
             >
@@ -138,11 +139,12 @@ const Hero = () => {
               school? Are you just after a quick consultation, and don’t feel
               like waiting in the waiting room of your local GP clinic?
             </Typography>
-            <br />
+
             <Typography
               variant="subtitle1"
               component="p"
               color="text.secondary"
+              mb={2}
               sx={{ fontWeight: 400 }}
             >
               No worries, now you can do all these anywhere in Australia*, even
@@ -150,18 +152,17 @@ const Hero = () => {
               online doctors for medical consultations, all from our DoctorAI
               app. We are open now
             </Typography>
-            <br />
 
             <Typography
               variant="subtitle1"
               component="p"
+              mb={2}
               color="text.secondary"
               sx={{ fontWeight: 400 }}
             >
               Download the DoctorAI app and request a consultation with a fully
               qualified online doctor today.{' '}
             </Typography>
-            <br />
 
             <Typography
               variant="body2"

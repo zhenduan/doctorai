@@ -13,14 +13,14 @@ import {
   FaqSection,
 } from './components';
 
-const OnlinePsychologist = () => {
+const ViagraOnline = () => {
   const theme = useTheme();
   return (
     <Box sx={{ overflowX: 'hidden' }}>
       <Main
         bgcolor={'background.paper'}
-        title="Online Psychologist Australia | Book an Appointment Today"
-        description="Download the DoctorAI app to receive a referral to a psychologist from our online doctors. Fast & efficient way to get a psychologist referral. "
+        title="Viagra Online | Order Viagra Online With A Prescription"
+        description="Order Viagra with an online prescription from DoctorAI. You can buy Viagra online in Australia when you order Viagra online with a prescription today."
       >
         <Hero />
         {/* <Container>
@@ -74,4 +74,4 @@ const OnlinePsychologist = () => {
   );
 };
 
-export default OnlinePsychologist;
+export default ViagraOnline;

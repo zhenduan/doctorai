@@ -8,24 +8,10 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
-const FaqSection = () => {
+const ServicesAccrodion = () => {
   const theme = useTheme();
   return (
     <>
-      <Typography
-        variant="h4"
-        component="h2"
-        color="text.primary"
-        align={'center'}
-        mb={3}
-        gutterBottom
-        sx={{
-          fontWeight: 700,
-        }}
-      >
-        Frequently Asked Questions
-      </Typography>
-
       {/* faq 1 */}
       <Accordion>
         <AccordionSummary
@@ -39,7 +25,7 @@ const FaqSection = () => {
             color="text.secondary"
             sx={{ fontWeight: 500 }}
           >
-            How can I see an online psychologist?
+            Depression
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -49,18 +35,10 @@ const FaqSection = () => {
             color="text.secondary"
             sx={{ fontWeight: 400 }}
           >
-            You can see a psychologist by downloading the DoctorAI app. Simply
-            consult your online GP for a specialist referral to a psychologist.
-          </Typography>
-          <Typography
-            variant="subtitle1"
-            component="p"
-            color="text.secondary"
-            sx={{ fontWeight: 400 }}
-          >
-            Bringing you the best of telehealth, DoctorAI is fully online, so
-            you can call us for an online psychologists’ referral to see an
-            online psychologist from Sydney to Perth and everywhere in between.
+            If you're feeling deep, persistent depression, we don't want you to
+            face this alone. Depression is more common than you may think, and a
+            psychologist referral from DoctorAI can guide you to better mental
+            health outcomes.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -77,7 +55,7 @@ const FaqSection = () => {
             color="text.secondary"
             sx={{ fontWeight: 500 }}
           >
-            How can I book an appointment with an online psychologist?
+            Anxiety
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -88,18 +66,10 @@ const FaqSection = () => {
             mb={3}
             sx={{ fontWeight: 400 }}
           >
-            You can book an appointment with a psychologist by downloading the
-            DoctorAI app, as the first step to seeing a psychologist.
-          </Typography>
-          <Typography
-            variant="subtitle1"
-            component="p"
-            color="text.secondary"
-            mb={3}
-            sx={{ fontWeight: 400 }}
-          >
-            Book an appointment with one of the online doctors at DoctorAI, and
-            we can refer you to a specialist consultation with a psychologist.
+            No matter how insurmountable it may seem, anxiety can be brought
+            under control. The psychologist referral from DoctorAI will help you
+            identify and manage the sources of anxiety in your life, so you no
+            longer feel trapped by them.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -117,7 +87,7 @@ const FaqSection = () => {
             color="text.secondary"
             sx={{ fontWeight: 500 }}
           >
-            Are online psychologists covered by Medicare?
+            Stress
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -128,19 +98,10 @@ const FaqSection = () => {
             mb={3}
             sx={{ fontWeight: 400 }}
           >
-            Our referral consultations for online psychologists are covered by
-            Medicare, via the Mental Health Care Plan if you are eligible, after
-            being assessed by our online doctor.
-          </Typography>
-          <Typography
-            variant="subtitle1"
-            component="p"
-            color="text.secondary"
-            mb={3}
-            sx={{ fontWeight: 400 }}
-          >
-            To learn more about our referrals for online psychologists and
-            Medicare rebates, please see the full list here.
+            Stresses can build up in your life until they are taking a toll on
+            all aspects of your health. Contact DoctorAI if you need a
+            psychologist referral for cognitive behavioural therapy (CBT),
+            mindfulness and stress alleviation therapies.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -157,7 +118,7 @@ const FaqSection = () => {
             color="text.secondary"
             sx={{ fontWeight: 500 }}
           >
-            Are child psychologists available online?
+            Relationships
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -168,10 +129,73 @@ const FaqSection = () => {
             mb={3}
             sx={{ fontWeight: 400 }}
           >
-            Just as we do for adults, your child can be referred to a child
-            psychologist from a consultation with DoctorAI. As a fully online
-            service, our app is the easiest way to see an online psychologist,
-            from Melbourne to Darwin and everywhere in between.
+            Disagreements are a reality of all relationships, but you can have
+            some help in working it out together. To overcome obstacles together
+            and build a healthy relationship based on lasting and fulfilling
+            bonds, talk with us today for an online psychologist’s referral.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+
+      {/* 5 */}
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <Typography
+            variant="h6"
+            component="h3"
+            color="text.secondary"
+            sx={{ fontWeight: 500 }}
+          >
+            Addiction
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography
+            variant="subtitle1"
+            component="p"
+            color="text.secondary"
+            mb={3}
+            sx={{ fontWeight: 400 }}
+          >
+            Left untreated, addictions can derail your relationships and life
+            plans, but the choice is in your hands. Talk with DoctorAI today for
+            an online psychologist’s referral about the steps you can take to
+            bring control and fulfilment back into your life.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+
+      {/* 6 */}
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <Typography
+            variant="h6"
+            component="h3"
+            color="text.secondary"
+            sx={{ fontWeight: 500 }}
+          >
+            Trauma & Abuse
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography
+            variant="subtitle1"
+            component="p"
+            color="text.secondary"
+            mb={3}
+            sx={{ fontWeight: 400 }}
+          >
+            If you are struggling to cope with everyday situations, you don't
+            have to deal with this alone. Talk with DoctorAI for a psychologist
+            referral to find your stability and strength.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -179,4 +203,4 @@ const FaqSection = () => {
   );
 };
 
-export default FaqSection;
+export default ServicesAccrodion;

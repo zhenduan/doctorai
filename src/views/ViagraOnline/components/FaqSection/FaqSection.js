@@ -39,7 +39,7 @@ const FaqSection = () => {
             color="text.secondary"
             sx={{ fontWeight: 500 }}
           >
-            How can I see an online psychologist?
+            How long does Viagra last?
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -49,18 +49,8 @@ const FaqSection = () => {
             color="text.secondary"
             sx={{ fontWeight: 400 }}
           >
-            You can see a psychologist by downloading the DoctorAI app. Simply
-            consult your online GP for a specialist referral to a psychologist.
-          </Typography>
-          <Typography
-            variant="subtitle1"
-            component="p"
-            color="text.secondary"
-            sx={{ fontWeight: 400 }}
-          >
-            Bringing you the best of telehealth, DoctorAI is fully online, so
-            you can call us for an online psychologists’ referral to see an
-            online psychologist from Sydney to Perth and everywhere in between.
+            The recommended 50mg dose of Viagra is designed to last between four
+            and six hours for one dosage.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -77,7 +67,7 @@ const FaqSection = () => {
             color="text.secondary"
             sx={{ fontWeight: 500 }}
           >
-            How can I book an appointment with an online psychologist?
+            How long does Viagra take to work?
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -88,18 +78,8 @@ const FaqSection = () => {
             mb={3}
             sx={{ fontWeight: 400 }}
           >
-            You can book an appointment with a psychologist by downloading the
-            DoctorAI app, as the first step to seeing a psychologist.
-          </Typography>
-          <Typography
-            variant="subtitle1"
-            component="p"
-            color="text.secondary"
-            mb={3}
-            sx={{ fontWeight: 400 }}
-          >
-            Book an appointment with one of the online doctors at DoctorAI, and
-            we can refer you to a specialist consultation with a psychologist.
+            Viagra takes about an hour to be effective. However, you can take
+            Viagra from 30 minutes to four hours before sexual activity.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -117,7 +97,7 @@ const FaqSection = () => {
             color="text.secondary"
             sx={{ fontWeight: 500 }}
           >
-            Are online psychologists covered by Medicare?
+            Is Viagra safe?
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -128,19 +108,9 @@ const FaqSection = () => {
             mb={3}
             sx={{ fontWeight: 400 }}
           >
-            Our referral consultations for online psychologists are covered by
-            Medicare, via the Mental Health Care Plan if you are eligible, after
-            being assessed by our online doctor.
-          </Typography>
-          <Typography
-            variant="subtitle1"
-            component="p"
-            color="text.secondary"
-            mb={3}
-            sx={{ fontWeight: 400 }}
-          >
-            To learn more about our referrals for online psychologists and
-            Medicare rebates, please see the full list here.
+            Viagra is safe to use if taken in the recommended dosage. However,
+            if you have serious medical conditions, you are advised to consult
+            your online GP before using Viagra.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -157,7 +127,7 @@ const FaqSection = () => {
             color="text.secondary"
             sx={{ fontWeight: 500 }}
           >
-            Are child psychologists available online?
+            Can you take Viagra with antidepressants?
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -168,10 +138,70 @@ const FaqSection = () => {
             mb={3}
             sx={{ fontWeight: 400 }}
           >
-            Just as we do for adults, your child can be referred to a child
-            psychologist from a consultation with DoctorAI. As a fully online
-            service, our app is the easiest way to see an online psychologist,
-            from Melbourne to Darwin and everywhere in between.
+            You can take Viagra with antidepressants. Viagra has been proven to
+            be effective in combating erectile dysfunction caused by
+            antidepressants.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+
+      {/* 5 */}
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <Typography
+            variant="h6"
+            component="h3"
+            color="text.secondary"
+            sx={{ fontWeight: 500 }}
+          >
+            How is Cialis different from Viagra?
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography
+            variant="subtitle1"
+            component="p"
+            color="text.secondary"
+            mb={3}
+            sx={{ fontWeight: 400 }}
+          >
+            The major difference between Cialis and Viagra is the length of time
+            they stay in your system. Cialis lasts up to 18 hours, while Viagra
+            lasts between four and six hours.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+
+      {/* 6 */}
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <Typography
+            variant="h6"
+            component="h3"
+            color="text.secondary"
+            sx={{ fontWeight: 500 }}
+          >
+            How many times a day can I take Viagra?
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography
+            variant="subtitle1"
+            component="p"
+            color="text.secondary"
+            mb={3}
+            sx={{ fontWeight: 400 }}
+          >
+            The maximum recommended dose of Viagra is once daily, as required.
+            The usual recommended dosage is 50mg (25mg to 100mg range).
           </Typography>
         </AccordionDetails>
       </Accordion>

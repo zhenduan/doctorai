@@ -61,18 +61,14 @@ const Features = () => {
             >
               Bulk Billing*
             </Typography>
-            <Typography
-              // variant={'h6'}
-              component={'p'}
-              color={'text.secondary'}
-            >
+            <Typography variant={'h6'} component={'p'} color={'text.secondary'}>
               Our online GPs offer bulk billing if you fit in one of the
               following categories:
             </Typography>
             <ul>
               <li>
                 <Typography
-                  // variant={'h6'}
+                  variant={'h6'}
                   component={'p'}
                   color={'text.secondary'}
                 >
@@ -82,7 +78,7 @@ const Features = () => {
               </li>
               <li>
                 <Typography
-                  // variant={'h6'}
+                  variant={'h6'}
                   component={'p'}
                   color={'text.secondary'}
                 >
@@ -91,7 +87,7 @@ const Features = () => {
               </li>
               <li>
                 <Typography
-                  // variant={'h6'}
+                  variant={'h6'}
                   component={'p'}
                   color={'text.secondary'}
                 >
@@ -100,7 +96,7 @@ const Features = () => {
               </li>
               <li>
                 <Typography
-                  // variant={'h6'}
+                  variant={'h6'}
                   component={'p'}
                   color={'text.secondary'}
                 >
@@ -109,7 +105,7 @@ const Features = () => {
               </li>
               <li>
                 <Typography
-                  // variant={'h6'}
+                  variant={'h6'}
                   component={'p'}
                   color={'text.secondary'}
                 >
@@ -119,11 +115,7 @@ const Features = () => {
             </ul>
           </Box>
           <Box>
-            <Typography
-              // variant={'h6'}
-              component={'p'}
-              color={'text.secondary'}
-            >
+            <Typography variant={'h6'} component={'p'} color={'text.secondary'}>
               If you don’t belong to any of the above groups, we charge $35 per
               consultation, with no Medicare rebate.
             </Typography>

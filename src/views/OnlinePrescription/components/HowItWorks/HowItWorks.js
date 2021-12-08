@@ -11,7 +11,6 @@ import Box from '@mui/material/Box';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
-import ServicesAccrodion from './ServicesAccrodion';
 // import medicareImg from './images/medicare-card-large.jpeg';
 
 const Features = () => {
@@ -40,7 +39,7 @@ const Features = () => {
               component="h2"
               gutterBottom
             >
-              Take control of your mental health
+              How it works
             </Typography>
             <Typography
               variant="subtitle1"
@@ -48,9 +47,11 @@ const Features = () => {
               component={'p'}
               color={'text.secondary'}
             >
-              If you are experiencing depression, anxiety, trauma and abuse,
-              stress, addiction and relationship issues, you can take control of
-              mental health at
+              The best way to get online scripts in Australia and online doctor
+              prescriptions in Australia via an app is DoctorAI. Simply download
+              the DoctorAI app in minutes. Book your online doctor appointment
+              for an online prescription consultation. All the prescriptions
+              will be emailed to you at the end of the consultation.
             </Typography>
 
             <Typography
@@ -59,8 +60,12 @@ const Features = () => {
               component={'p'}
               color={'text.secondary'}
             >
-              DoctorAI is the easiest and fastest way to get talking with a
-              psychologist.
+              There’s no need for you or your loved ones to undergo extended
+              wait periods. Better yet, there’s no delaying your important
+              medical appointments. To consult with the online doctor in
+              Australia, simply download the DoctorAI app, access the app and
+              you will receive prompt, professional and trusted medical
+              treatment today.
             </Typography>
 
             <Typography
@@ -69,14 +74,37 @@ const Features = () => {
               component={'p'}
               color={'text.secondary'}
             >
-              All you need to do to get started is download the DoctorAI app.
-              From there, you’ll talk with our team, and after our consult, we
-              can refer you to an online psychologist consultation for an
-              appointment that day.
+              We feel certain that you will be completely satisfied with our
+              online doctor services. Our online doctor is as thorough, careful
+              and professional as visiting a doctor, in person. In fact, if for
+              any reason you’re not 100% satisfied, or if your request can’t be
+              completed online, we’ll issue a full refund*.
             </Typography>
+
+            <Typography
+              variant="subtitle1"
+              mb={2}
+              component={'p'}
+              color={'text.secondary'}
+            >
+              That’s our promise to all of our valued patients.
+            </Typography>
+
+            <Typography
+              variant="subtitle1"
+              mb={2}
+              component={'p'}
+              color={'text.secondary'}
+            ></Typography>
           </Box>
           <Box>
-            <ServicesAccrodion />
+            <Typography
+              variant={'body2'}
+              component={'p'}
+              color={'text.secondary'}
+            >
+              *if private consultation fees have been paid
+            </Typography>
           </Box>
         </Grid>
         <Grid
@@ -142,7 +170,7 @@ const Features = () => {
               component="h2"
               gutterBottom
             >
-              Online psychologist available to you
+              Repeat Prescriptions
             </Typography>
             <Typography
               variant="subtitle1"
@@ -150,20 +178,8 @@ const Features = () => {
               component={'p'}
               color={'text.secondary'}
             >
-              How can you benefit from an online psychologist consultation?
-            </Typography>
-
-            <Typography
-              variant="subtitle1"
-              mb={2}
-              component={'p'}
-              color={'text.secondary'}
-            >
-              Secure and secure, DoctorAI offers referrals with online
-              psychologists across Australia to suit your needs. It's the most
-              convenient way to see a psychologist at a time and place that
-              suits you - and it's as equally valid as any medical referral that
-              you would have in-person at a clinic.
+              DoctorAI offers repeat prescriptions when you book your online
+              doctor prescription Australia consultation.
             </Typography>
 
             <Typography
@@ -172,10 +188,60 @@ const Features = () => {
               component={'p'}
               color={'text.secondary'}
             >
-              The mental health support you need, in the comfort of your own
-              home - our service is all about making the best healthcare
-              services available to you. Get started with DoctorAI for your
-              psychologist referral today.
+              There’s no need for you or your loved ones to undergo extended
+              wait periods. Better yet, there’s no delaying your important
+              medical appointments. To consult with the online doctor in
+              Australia, simply download the DoctorAI app, access the app and
+              you will receive prompt, professional and trusted medical
+              treatment today.
+            </Typography>
+
+            <Typography
+              variant="subtitle1"
+              mb={2}
+              component={'p'}
+              color={'text.secondary'}
+            >
+              You just need to show us your current medication label with your
+              name and the prescribed doctor’s name on it. Our GPs online will
+              take it from there. They will get your repeat prescription for you
+              when you need it.
+            </Typography>
+
+            <Typography
+              variant="subtitle1"
+              mb={2}
+              component={'p'}
+              color={'text.secondary'}
+            >
+              Please note: there are strictly NO medications of addiction,
+              painkillers, narcotics, sleeping tablets or medicinal cannabis
+              (Schedule 4 and 8 medications).
+            </Typography>
+
+            <Typography
+              variant="subtitle1"
+              mb={2}
+              component={'p'}
+              color={'text.secondary'}
+            ></Typography>
+
+            <Typography
+              sx={{ fontWeight: 700 }}
+              variant="h4"
+              component="h2"
+              gutterBottom
+            >
+              New Prescriptions
+            </Typography>
+            <Typography
+              variant="subtitle1"
+              mb={2}
+              component={'p'}
+              color={'text.secondary'}
+            >
+              For new prescriptions and all of your online prescription needs,
+              consult DoctorAI online via the downloadable app.
             </Typography>
           </Box>
         </Grid>

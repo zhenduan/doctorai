@@ -107,7 +107,7 @@ const Hero = () => {
                 fontWeight: 700,
               }}
             >
-              Schedule a referral appointment with an online psychologist today
+              Speak with a GP today and get a Doctor’s Certificate Online
               {/* <br />
               into{' '}
               <Typography
@@ -135,7 +135,9 @@ const Hero = () => {
               mb={2}
               sx={{ fontWeight: 400 }}
             >
-              Schedule a referral appointment with an online psychologist today
+              Do you need a doctor’s certificate online or a medical certificate
+              online? Your doctor’s certificate online in Australia is taken
+              care of by DoctorAI.
             </Typography>
 
             <Typography
@@ -145,10 +147,8 @@ const Hero = () => {
               mb={2}
               sx={{ fontWeight: 400 }}
             >
-              With DoctorAI 's telehealth app, it's convenient and fast to get
-              in touch with an online psychologist. Download our app to get a
-              referral to an online psychologist and start focussing on your
-              mental health.
+              Save on medical treatments and spend your recovery time in the
+              comfort of your home, not in a doctor’s waiting room.
             </Typography>
 
             <Typography
@@ -158,8 +158,32 @@ const Hero = () => {
               mb={2}
               sx={{ fontWeight: 400 }}
             >
-              DoctorAI can provide you with a Mental Health Care Plan to see a
-              psychologist through Medicare if you are eligible.
+              Our online doctors can take care of all your family’s medical,
+              mental healthcare, and all of your online GP needs.
+            </Typography>
+
+            <Typography
+              variant="subtitle1"
+              component="p"
+              color="text.secondary"
+              mb={2}
+              sx={{ fontWeight: 400 }}
+            >
+              Connect with our AHPRA-registered online doctors for online
+              doctor’s medical certificates and medical consultations — all from
+              our DoctorAI app.
+            </Typography>
+
+            <Typography
+              variant="subtitle1"
+              component="p"
+              color="text.secondary"
+              mb={2}
+              sx={{ fontWeight: 400 }}
+            >
+              Download the DoctorAI app and your medical needs will always be
+              covered. The DoctorAI app brings the online GP and doctor’s
+              certificates online virtually to your door.
             </Typography>
 
             <Box

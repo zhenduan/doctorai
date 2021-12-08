@@ -107,7 +107,7 @@ const Hero = () => {
                 fontWeight: 700,
               }}
             >
-              Schedule a referral appointment with an online psychologist today
+              Telehealth
               {/* <br />
               into{' '}
               <Typography
@@ -135,31 +135,22 @@ const Hero = () => {
               mb={2}
               sx={{ fontWeight: 400 }}
             >
-              Schedule a referral appointment with an online psychologist today
+              Do you require medical treatment or evaluation, but can’t attend a
+              consultation in person? Telehealth Australia is an online or over
+              the phone medical appointment that can be conducted anywhere in
+              Australia.
             </Typography>
 
             <Typography
               variant="subtitle1"
               component="p"
               color="text.secondary"
-              mb={2}
               sx={{ fontWeight: 400 }}
             >
-              With DoctorAI 's telehealth app, it's convenient and fast to get
-              in touch with an online psychologist. Download our app to get a
-              referral to an online psychologist and start focussing on your
-              mental health.
-            </Typography>
-
-            <Typography
-              variant="subtitle1"
-              component="p"
-              color="text.secondary"
-              mb={2}
-              sx={{ fontWeight: 400 }}
-            >
-              DoctorAI can provide you with a Mental Health Care Plan to see a
-              psychologist through Medicare if you are eligible.
+              Not only is a Telehealth appointment safe and convenient to use,
+              but Telehealth services help protect healthcare professionals,
+              their staff and their patients from the unnecessary risk of
+              infection.
             </Typography>
 
             <Box

@@ -13,14 +13,14 @@ import {
   FaqSection,
 } from './components';
 
-const OnlinePsychologist = () => {
+const Telehealth = () => {
   const theme = useTheme();
   return (
     <Box sx={{ overflowX: 'hidden' }}>
       <Main
         bgcolor={'background.paper'}
-        title="Online Psychologist Australia | Book an Appointment Today"
-        description="Download the DoctorAI app to receive a referral to a psychologist from our online doctors. Fast & efficient way to get a psychologist referral. "
+        title="Telehealth Australia | Learn About Telehealth "
+        description="Book your Telehealth Australia appointment today with DoctorAI. Learn how to make Telehealth work for you, online and on time at all Australian locations."
       >
         <Hero />
         {/* <Container>
@@ -39,9 +39,9 @@ const OnlinePsychologist = () => {
           {/* <Container maxWidth={600}>
             <QuickStart />
           </Container> */}
-          {/* <Container>
+          <Container>
             <Features />
-          </Container> */}
+          </Container>
           <Container>
             <HowItWorks />
           </Container>
@@ -74,4 +74,4 @@ const OnlinePsychologist = () => {
   );
 };
 
-export default OnlinePsychologist;
+export default Telehealth;

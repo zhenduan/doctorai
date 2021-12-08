@@ -87,16 +87,16 @@ const GetStarted = () => {
             <Box>
               <Typography
                 variant={'h4'}
-                component="h3"
+                component="h2"
                 gutterBottom
                 sx={{ fontWeight: 700 }}
               >
-                Have a chat with us
+                What is Viagra?
               </Typography>
               <Typography component={'p'} color={'text.secondary'}>
-                Schedule a consultation with DoctorAI, directly from the app.
-                You can talk with one of our AHPRA-registered doctors to get the
-                psychologist referral you need.
+                Viagra is the brand name for a medication called sildenafil.
+                This medication is used to treat erectile dysfunction and
+                pulmonary arterial hypertension.
               </Typography>
             </Box>
           </Grid>
@@ -111,17 +111,24 @@ const GetStarted = () => {
             <Box>
               <Typography
                 variant={'h4'}
-                component="h3"
+                component="h2"
                 gutterBottom
                 sx={{ fontWeight: 700 }}
               >
-                Get the help you need
+                How does it work?
+              </Typography>
+              <Typography component={'p'} color={'text.secondary'} mb={3}>
+                Viagra works to treat erectile dysfunction by helping men have
+                and maintain an erection. The drug does this by improving blood
+                flow to the penis when sexually aroused.
               </Typography>
               <Typography component={'p'} color={'text.secondary'}>
-                Get all the online help you need with DoctorAI. We offer bulk
-                billing for online psychologist referrals for the Mental Health
-                Care Plan, where applicable, so check now to see whether you are
-                eligible for Medicare rebates.
+                Clinical research shows that Viagra for men and similar ED drugs
+                like Cialis (tadalafil) and Levitra (vardenafil) work by helping
+                to relax muscles and arteries inside the penis. This, in turn,
+                helps more blood reach the penis. When aroused, the combination
+                of relaxation and increased blood flow helps fill the penis with
+                blood.
               </Typography>
             </Box>
           </Grid>

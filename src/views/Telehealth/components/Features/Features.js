@@ -59,98 +59,54 @@ const Features = () => {
               component="h2"
               gutterBottom
             >
-              Bulk Billing*
+              How it works
             </Typography>
             <Typography
-              // variant={'h6'}
-              component={'p'}
-              color={'text.secondary'}
+              // variant="h6"
+              component="p"
+              color="text.secondary"
+              mb={3}
+              sx={{ fontWeight: 400 }}
             >
-              Our online GPs offer bulk billing if you fit in one of the
-              following categories:
+              A Telehealth appointment works just like a regular medical
+              appointment, but it is conducted safely and conveniently over the
+              video call or audio call using your phone. Simply book an
+              appointment with DoctorAI for a Telehealth consultation or
+              Telehealth counselling to suit your medical needs.
             </Typography>
-            <ul>
-              <li>
-                <Typography
-                  // variant={'h6'}
-                  component={'p'}
-                  color={'text.secondary'}
-                >
-                  Are living in a COVID-19 impacted area (including
-                  self-quarantine), or
-                </Typography>
-              </li>
-              <li>
-                <Typography
-                  // variant={'h6'}
-                  component={'p'}
-                  color={'text.secondary'}
-                >
-                  Are under the age of 12 months, or
-                </Typography>
-              </li>
-              <li>
-                <Typography
-                  // variant={'h6'}
-                  component={'p'}
-                  color={'text.secondary'}
-                >
-                  Are experiencing homelessness, or
-                </Typography>
-              </li>
-              <li>
-                <Typography
-                  // variant={'h6'}
-                  component={'p'}
-                  color={'text.secondary'}
-                >
-                  Have Mental, Sexual or Reproductive health issues, or
-                </Typography>
-              </li>
-              <li>
-                <Typography
-                  // variant={'h6'}
-                  component={'p'}
-                  color={'text.secondary'}
-                >
-                  Need urgent after-hours service (after 11 pm WA time)
-                </Typography>
-              </li>
-            </ul>
-          </Box>
-          <Box>
+
             <Typography
-              // variant={'h6'}
-              component={'p'}
-              color={'text.secondary'}
+              // variant="h6"
+              component="p"
+              color="text.secondary"
+              mb={3}
+              sx={{ fontWeight: 400 }}
             >
-              If you don’t belong to any of the above groups, we charge $35 per
-              consultation, with no Medicare rebate.
-            </Typography>
-            <br />
-            <Typography
-              variant={'body2'}
-              component={'p'}
-              color={'text.secondary'}
-            >
-              *In accordance with *Stage 7 Telehealth Reform by the Australian
-              Government
+              Telehealth works by putting patients in touch with the right
+              medical professional, either via video conferencing or by
+              conducting an appointment over the phone.
             </Typography>
             <Typography
-              variant={'body2'}
-              component={'p'}
-              color={'text.secondary'}
+              sx={{ fontWeight: 700 }}
+              variant="h4"
+              component="h2"
+              gutterBottom
             >
-              *You must be in Australia to use DoctorAI video consultation
+              What you need to know
             </Typography>
-            <Typography
-              variant={'body2'}
-              component={'p'}
-              color={'text.secondary'}
-            >
-              *Terms and conditions apply
+            <Typography mb={3} component={'p'} color={'text.secondary'}>
+              You need to know that Telehealth is available to patients who
+              require the online or phone-based services of a GP.
+            </Typography>
+            <Typography mb={3} component={'p'} color={'text.secondary'}>
+              Telehealth services are also bulk billed, wherever applicable.
+            </Typography>
+            <Typography component={'p'} color={'text.secondary'}>
+              A Telehealth appointment for a GP is easy to arrange with
+              DoctorAI.
             </Typography>
           </Box>
+
           {/* <Grid container spacing={2}>
             {mock.map((item, i) => (
               <Grid key={i} item xs={12} md={4}>
